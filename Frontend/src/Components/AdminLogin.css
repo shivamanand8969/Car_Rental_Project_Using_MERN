@@ -1,0 +1,79 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111; /* Dark background color */
+    color: #fff; /* Light text color */
+  }
+  
+  .login-container {
+    max-width: 400px;
+    width: 90%;
+    background-color: #222; /* Darker container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  }
+  
+  .login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #888; /* Light border color */
+    background-color: #333; /* Dark input background color */
+    color: #fff; /* Light text color */
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff; /* Focus border color */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker button background color on hover */
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  p a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  

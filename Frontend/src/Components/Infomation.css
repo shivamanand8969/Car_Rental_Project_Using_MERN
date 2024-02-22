@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.car-rental-benefits-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .car-rental-benefits {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .car-rental-benefits h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit {
+    margin-bottom: 30px;
+  }
+  
+  .benefit h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .benefit p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  

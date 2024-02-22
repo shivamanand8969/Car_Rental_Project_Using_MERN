@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* Dark background color */
+    padding: 20px 20px;
+  }
+  
+  .nav-links a,
+  .auth-links a {
+    color: #fff; /* Light text color */
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  
+  .auth-links a {
+    margin-left: 20px;
+  }
+  
+  .nav-links a:hover,
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Dark mode toggle button (optional) */
+  .dark-mode-toggle {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
+  

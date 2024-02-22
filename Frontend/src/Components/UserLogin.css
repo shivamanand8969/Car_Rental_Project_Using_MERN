@@ -1,0 +1,35 @@
+.mainloginbox{
+   min-height: 90vh;
+   background-color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerloginbox{
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 14px #1d1d1d;
+  text-align: center;
+}
+.innerloginbox label{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+}
+.innerloginbox input{
+    height: 35px;
+    width: 80%;
+}
+.userloginbtn{
+    width: 78%;
+    border: 2px white solid;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+.userloginbtn:hover{
+    background-color: rgba(34, 34, 34, 0.651);
+}

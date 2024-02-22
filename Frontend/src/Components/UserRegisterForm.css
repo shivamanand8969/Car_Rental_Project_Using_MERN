@@ -1,0 +1,58 @@
+/* RegistrationForm.css */
+.registration-container-dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+.registration-form-dark {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2.dark {
+    color: #fff;
+    text-align: center;
+}
+
+.form-group-dark {
+    margin-bottom: 15px;
+}
+
+input[type='text'].dark,
+input[type='email'].dark,
+input[type='tel'].dark,
+input[type='password'].dark {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+input[type='text'].dark{
+    width: 100%;
+}
+input[type='text'].dark::placeholder,
+input[type='email'].dark::placeholder,
+input[type='tel'].dark::placeholder,
+input[type='password'].dark::placeholder {
+    color: #ccc;
+}
+button.dark {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button.dark:hover {
+    background-color: #45a049;
+}

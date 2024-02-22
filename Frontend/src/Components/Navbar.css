@@ -1,0 +1,48 @@
+nav{
+    background-color:black;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(49, 48, 48);
+}
+.nav-item{
+    display: flex;
+}
+.logo{
+    color: white;
+    font-size: 24px;
+}
+.nav-item li{
+   list-style: none;
+   margin-right: 20px;
+   color: white;
+}
+.threeLine{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+     .nav-item{
+        display:none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        left: 0;
+        flex-direction: column;
+        background-color: #333;
+     }
+     .threeLine{
+         display: block;
+         color: white;
+         font-size: 24px;
+         cursor: pointer;
+     }
+     .nav-item li{
+        text-align: center;
+        padding: 15px 0;
+     }
+     .nav-item.open{
+        display: flex;
+     }
+}
